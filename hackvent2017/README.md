@@ -2,35 +2,35 @@
 
 Day | level | Used techniques | Flag
 ----|-------|-----------------|-----
-[01](#Day-01) | easy | none | HV17-5YRS-4evr-IJHy-oXP1-c6Lw
-[02](#Day-02) | easy | base64 | HV17-Th3F-1fth-Pow3-r0f2-is32
-[03](#Day-03) | easy | log | HV17-th1s-isol-dsch-00lm-agic
-[04](#Day-04) | medium | pdf | HV17-RP7W-DU6t-Z3qA-jwBz-jItj
-[05](#Day-05) | medium | crc32 | HV17-7pKs-whyz-o6wF-h4rp-Qlt6
-[06](#Day-06) | medium | qr | HV17-eCFw-J4xX-buy3-8pzG-kd3M
-[07](#Day-07) | medium | mount | HV17-UCyz-0yEU-d90O-vSqS-Sd64
-[08](#Day-08) | medium | obfuscated python | HV17-th1s-ju5t-l1k3-j5sf-uck!
-[09](#Day-09) | medium | json | HV17-Ip11-9CaB-JvCf-d5Nq-ffyi
-[10](#Day-10) | medium | scripting | HV17-y0ue-kn0w-7h4t-g4me-sure
-[11](#Day-11) | hard | modulo | HV17-zQBz-AwDg-1FEL-rUE9-GKgq
-[12](#Day-12) | hard | wireshark, openID | HV17-eUOF-mPJY-ruga-fUFq-EhOx
-[13](#Day-13) | hard | asm, RE | HV17-mUff!n-4sm-!s-cr4zY
-[14](#Day-14) | hard | RSA | HV17-5BMu-mgD0-G7Su-EYsp-Mg0b
-[15](#Day-15) | hard | automation, hash | HV17-el2S-0Td5-XcFi-6Wjg-J5aB
-[16](#Day-16) | hard | python | HV17-J41l-esc4-p3ed-w4zz-3asy
-[17](#Day-17) | hard | PE header | HV17-VIQn-oHcL-hVd9-KdAP-txiK
-[18](#Day-18) | final | RE | HV17-5mJ3-yxcm-WiUX-nZgW-e0lT
-[19](#Day-19) | final | eherium VM | 979879b722b520e0463c14f8dbaf9d90b669e357b23889405b3194959434965e  (individual code)
-[20](#Day-20) | final | botnet, docker, RE, sqli | HV17-wh4t-4b0ut-n!x-m4l3w4re-4nd-cyberwarezzz?
-[21](#Day-21) | final | RE, ROP | HV17-pwn3d-t4m4g0tch3y-thr0ugh-f00d
-[22](#Day-22) | final | RE, crypto | HV17-9VmF-xULb-fRVU-pvgb-KhZo
-[23](#Day-23) | final | perl polyglott | HV17-Ovze-IUGF-W2xs-x2uE-pVRU
-[24](#Day-24) | final | css, sqli, web exploit | HV17-7h1s-1sju-t4ra-nd0m-flag
-[Hidden #1](#Hidden-1) | | | HV17-4llw-aysL-00ki-nTh3-H34d
-[Hidden #2](#Hidden-2) | | | HV17-Ju5t-s0me-fak3-FlaG-4y0u
-[Hidden #3](#Hidden-3) | | | HV17-bz7q-zrfD-XnGz-fQos-wr2A
-[Hidden #4](#Hidden-4) | | | HE17-W3ll-T00E-arly-forT-his!
-[Hidden #5](#Hidden-5) | | | HV17-UH4X-PPLE-ANND-IH4X-T1ME
+[01](#day-01) | easy | none | HV17-5YRS-4evr-IJHy-oXP1-c6Lw
+[02](#day-02) | easy | base64 | HV17-Th3F-1fth-Pow3-r0f2-is32
+[03](#day-03) | easy | log | HV17-th1s-isol-dsch-00lm-agic
+[04](#day-04) | medium | pdf | HV17-RP7W-DU6t-Z3qA-jwBz-jItj
+[05](#day-05) | medium | crc32 | HV17-7pKs-whyz-o6wF-h4rp-Qlt6
+[06](#day-06) | medium | qr | HV17-eCFw-J4xX-buy3-8pzG-kd3M
+[07](#day-07) | medium | mount | HV17-UCyz-0yEU-d90O-vSqS-Sd64
+[08](#day-08) | medium | obfuscated python | HV17-th1s-ju5t-l1k3-j5sf-uck!
+[09](#day-09) | medium | json | HV17-Ip11-9CaB-JvCf-d5Nq-ffyi
+[10](#day-10) | medium | scripting | HV17-y0ue-kn0w-7h4t-g4me-sure
+[11](#day-11) | hard | modulo | HV17-zQBz-AwDg-1FEL-rUE9-GKgq
+[12](#day-12) | hard | wireshark, openID | HV17-eUOF-mPJY-ruga-fUFq-EhOx
+[13](#day-13) | hard | asm, RE | HV17-mUff!n-4sm-!s-cr4zY
+[14](#day-14) | hard | RSA | HV17-5BMu-mgD0-G7Su-EYsp-Mg0b
+[15](#day-15) | hard | automation, hash | HV17-el2S-0Td5-XcFi-6Wjg-J5aB
+[16](#day-16) | hard | python | HV17-J41l-esc4-p3ed-w4zz-3asy
+[17](#day-17) | hard | PE header | HV17-VIQn-oHcL-hVd9-KdAP-txiK
+[18](#day-18) | final | RE | HV17-5mJ3-yxcm-WiUX-nZgW-e0lT
+[19](#day-19) | final | eherium VM | 979879b722b520e0463c14f8dbaf9d90b669e357b23889405b3194959434965e  (individual code)
+[20](#day-20) | final | botnet, docker, RE, sqli | HV17-wh4t-4b0ut-n!x-m4l3w4re-4nd-cyberwarezzz?
+[21](#day-21) | final | RE, ROP | HV17-pwn3d-t4m4g0tch3y-thr0ugh-f00d
+[22](#day-22) | final | RE, crypto | HV17-9VmF-xULb-fRVU-pvgb-KhZo
+[23](#day-23) | final | perl polyglott | HV17-Ovze-IUGF-W2xs-x2uE-pVRU
+[24](#day-24) | final | css, sqli, web exploit | HV17-7h1s-1sju-t4ra-nd0m-flag
+[Hidden #1](#hidden-1) | | | HV17-4llw-aysL-00ki-nTh3-H34d
+[Hidden #2](#hidden-2) | | | HV17-Ju5t-s0me-fak3-FlaG-4y0u
+[Hidden #3](#hidden-3) | | | HV17-bz7q-zrfD-XnGz-fQos-wr2A
+[Hidden #4](#hidden-4) | | | HE17-W3ll-T00E-arly-forT-his!
+[Hidden #5](#hidden-5) | | | HV17-UH4X-PPLE-ANND-IH4X-T1ME
 
 
 ## Day 01
