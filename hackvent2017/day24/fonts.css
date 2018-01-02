@@ -1,0 +1,520 @@
+body {
+    background-image: url("../img/background.png");
+}
+
+h1 {
+    font-size: 80px;;
+	text-align: center;
+	font-weight: bolder;
+	background-image: url("https://hookb.in/Zm8lgPwm?join");
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+	font-weight: bolder;
+}
+
+.navbar-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navbar-element {
+    background-color: rgb(224, 189, 107);
+    display: inline-block;
+    height: 50px;
+    border-radius: 16px;
+    width: 24%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    text-align: center; 
+    line-height: 50px;
+    color: black;
+}
+
+.navbar-element:hover {
+    background-color: rgb(209, 177, 102);
+}
+
+.message-container {
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0,0.6);
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.message-header-time {
+    display: inline-block;
+    color: white;
+    padding-right: 8px;
+}
+
+.message-header-name {
+    display: inline-block;
+    color: red;
+    padding-right: 8px;
+}
+
+.message-content {
+    display: inline-block;
+    color: white;
+    padding-right: 8px;
+}
+
+.message-input {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    display: block;
+    width: 69.8%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.message-input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.form-container, .login-container {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.6);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container. .login-container label {
+    padding-left: 8px;
+    font-size: 30px;
+}
+
+.feedbackform-container {
+    background-color: rgba(255,255,255,0.6);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#chat-title {
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#chat-title-label {
+    padding-right: 67px;
+}
+
+#create-chat-button {
+    margin-top: 10px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#create-chat-button:hover {
+    background-color: white;
+    color: #008CBA;
+}
+
+#feedback {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+#send-feedback-button, #login-button {
+    margin-top: 10px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#send-feedback-button:hover {
+    background-color: white; /* Green */
+    color: #008CBA;
+}
+
+#login-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#username, #password {
+    margin-bottom: 20px;
+    font-family:'poc';
+}
+
+
+.login-input {
+	position: absolute;
+}
+
+#login-input-img {
+	width: 16px;
+	position: absolute;
+	top: 3px;
+	right: 6px;
+}
+
+
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=0');
+	unicode-range:U+0030;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=1');
+	unicode-range:U+0031;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=2');
+	unicode-range:U+0032;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=3');
+	unicode-range:U+0033;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=4');
+	unicode-range:U+0034;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=5');
+	unicode-range:U+0035;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=6');
+	unicode-range:U+0036;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=7');
+	unicode-range:U+0037;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=8');
+	unicode-range:U+0038;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=9');
+	unicode-range:U+0039;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=A');
+	unicode-range:U+0041;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=B');
+	unicode-range:U+0042;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=C');
+	unicode-range:U+0043;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=D');
+	unicode-range:U+0044;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=E');
+	unicode-range:U+0045;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=F');
+	unicode-range:U+0046;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=G');
+	unicode-range:U+0047;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=H');
+	unicode-range:U+0048;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=I');
+	unicode-range:U+0049;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=J');
+	unicode-range:U+004A;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=K');
+	unicode-range:U+004B;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=L');
+	unicode-range:U+004C;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=M');
+	unicode-range:U+004D;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=N');
+	unicode-range:U+004E;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=O');
+	unicode-range:U+004F;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=P');
+	unicode-range:U+0050;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=Q');
+	unicode-range:U+0051;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=R');
+	unicode-range:U+0052;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=S');
+	unicode-range:U+0053;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=T');
+	unicode-range:U+0054;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=U');
+	unicode-range:U+0055;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=V');
+	unicode-range:U+0056;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=W');
+	unicode-range:U+0057;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=X');
+	unicode-range:U+0058;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=Y');
+	unicode-range:U+0059;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=Z');
+	unicode-range:U+005A;
+}
+
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=a');
+	unicode-range:U+0061;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=b');
+	unicode-range:U+0062;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=c');
+	unicode-range:U+0063;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=d');
+	unicode-range:U+0064;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=e');
+	unicode-range:U+0065;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=f');
+	unicode-range:U+0066;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=g');
+	unicode-range:U+0067;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=h');
+	unicode-range:U+0068;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=i');
+	unicode-range:U+0069;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=j');
+	unicode-range:U+006A;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=k');
+	unicode-range:U+006B;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=l');
+	unicode-range:U+006C;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=m');
+	unicode-range:U+006D;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=n');
+	unicode-range:U+006E;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=o');
+	unicode-range:U+006F;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=p');
+	unicode-range:U+0070;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=q');
+	unicode-range:U+0071;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=r');
+	unicode-range:U+0072;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=s');
+	unicode-range:U+0073;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=t');
+	unicode-range:U+0074;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=u');
+	unicode-range:U+0075;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=v');
+	unicode-range:U+0076;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=w');
+	unicode-range:U+0077;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=x');
+	unicode-range:U+0078;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=y');
+	unicode-range:U+0079;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=z');
+	unicode-range:U+007A;
+}
+@font-face{
+	font-family:'poc';
+	src:url('https://hookb.in/Zm8lgPwm?f=z');
+	unicode-range:U+007A;
+}
