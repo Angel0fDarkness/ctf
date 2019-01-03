@@ -1,0 +1,14 @@
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\Webapi.deps.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\Webapi.runtimeconfig.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\Webapi.runtimeconfig.dev.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\Webapi.dll
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\Webapi.pdb
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.csprojAssemblyReference.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.csproj.CoreCompileInputs.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.RazorAssemblyInfo.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.RazorAssemblyInfo.cs
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.AssemblyInfoInputs.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.AssemblyInfo.cs
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.RazorTargetAssemblyInfo.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.dll
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\Webapi.pdb

@@ -1,0 +1,190 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.aspnet.webapi.cors" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\components\accordion.css" />
+    <None Include="wwwroot\css\components\accordion.js" />
+    <None Include="wwwroot\css\components\accordion.min.css" />
+    <None Include="wwwroot\css\components\accordion.min.js" />
+    <None Include="wwwroot\css\components\ad.css" />
+    <None Include="wwwroot\css\components\ad.min.css" />
+    <None Include="wwwroot\css\components\api.js" />
+    <None Include="wwwroot\css\components\api.min.js" />
+    <None Include="wwwroot\css\components\breadcrumb.css" />
+    <None Include="wwwroot\css\components\breadcrumb.min.css" />
+    <None Include="wwwroot\css\components\button.css" />
+    <None Include="wwwroot\css\components\button.min.css" />
+    <None Include="wwwroot\css\components\card.css" />
+    <None Include="wwwroot\css\components\card.min.css" />
+    <None Include="wwwroot\css\components\checkbox.css" />
+    <None Include="wwwroot\css\components\checkbox.js" />
+    <None Include="wwwroot\css\components\checkbox.min.css" />
+    <None Include="wwwroot\css\components\checkbox.min.js" />
+    <None Include="wwwroot\css\components\checkbox.php" />
+    <None Include="wwwroot\css\components\colorize.js" />
+    <None Include="wwwroot\css\components\colorize.min.js" />
+    <None Include="wwwroot\css\components\comment.css" />
+    <None Include="wwwroot\css\components\comment.min.css" />
+    <None Include="wwwroot\css\components\container.css" />
+    <None Include="wwwroot\css\components\container.min.css" />
+    <None Include="wwwroot\css\components\dimmer.css" />
+    <None Include="wwwroot\css\components\dimmer.js" />
+    <None Include="wwwroot\css\components\dimmer.min.css" />
+    <None Include="wwwroot\css\components\dimmer.min.js" />
+    <None Include="wwwroot\css\components\divider.css" />
+    <None Include="wwwroot\css\components\divider.min.css" />
+    <None Include="wwwroot\css\components\dropdown.css" />
+    <None Include="wwwroot\css\components\dropdown.js" />
+    <None Include="wwwroot\css\components\dropdown.min.css" />
+    <None Include="wwwroot\css\components\dropdown.min.js" />
+    <None Include="wwwroot\css\components\embed.css" />
+    <None Include="wwwroot\css\components\embed.js" />
+    <None Include="wwwroot\css\components\embed.min.css" />
+    <None Include="wwwroot\css\components\embed.min.js" />
+    <None Include="wwwroot\css\components\feed.css" />
+    <None Include="wwwroot\css\components\feed.min.css" />
+    <None Include="wwwroot\css\components\flag.css" />
+    <None Include="wwwroot\css\components\flag.min.css" />
+    <None Include="wwwroot\css\components\form.css" />
+    <None Include="wwwroot\css\components\form.js" />
+    <None Include="wwwroot\css\components\form.min.css" />
+    <None Include="wwwroot\css\components\form.min.js" />
+    <None Include="wwwroot\css\components\grid.css" />
+    <None Include="wwwroot\css\components\grid.min.css" />
+    <None Include="wwwroot\css\components\header.css" />
+    <None Include="wwwroot\css\components\header.min.css" />
+    <None Include="wwwroot\css\components\icon.css" />
+    <None Include="wwwroot\css\components\icon.min.css" />
+    <None Include="wwwroot\css\components\image.css" />
+    <None Include="wwwroot\css\components\image.min.css" />
+    <None Include="wwwroot\css\components\input.css" />
+    <None Include="wwwroot\css\components\input.min.css" />
+    <None Include="wwwroot\css\components\item.css" />
+    <None Include="wwwroot\css\components\item.min.css" />
+    <None Include="wwwroot\css\components\label.css" />
+    <None Include="wwwroot\css\components\label.min.css" />
+    <None Include="wwwroot\css\components\list.css" />
+    <None Include="wwwroot\css\components\list.min.css" />
+    <None Include="wwwroot\css\components\loader.css" />
+    <None Include="wwwroot\css\components\loader.min.css" />
+    <None Include="wwwroot\css\components\menu.css" />
+    <None Include="wwwroot\css\components\menu.min.css" />
+    <None Include="wwwroot\css\components\message.css" />
+    <None Include="wwwroot\css\components\message.min.css" />
+    <None Include="wwwroot\css\components\modal.css" />
+    <None Include="wwwroot\css\components\modal.js" />
+    <None Include="wwwroot\css\components\modal.min.css" />
+    <None Include="wwwroot\css\components\modal.min.js" />
+    <None Include="wwwroot\css\components\nag.css" />
+    <None Include="wwwroot\css\components\nag.js" />
+    <None Include="wwwroot\css\components\nag.min.css" />
+    <None Include="wwwroot\css\components\nag.min.js" />
+    <None Include="wwwroot\css\components\placeholder.css" />
+    <None Include="wwwroot\css\components\placeholder.min.css" />
+    <None Include="wwwroot\css\components\popup.css" />
+    <None Include="wwwroot\css\components\popup.js" />
+    <None Include="wwwroot\css\components\popup.min.css" />
+    <None Include="wwwroot\css\components\popup.min.js" />
+    <None Include="wwwroot\css\components\progress.css" />
+    <None Include="wwwroot\css\components\progress.js" />
+    <None Include="wwwroot\css\components\progress.min.css" />
+    <None Include="wwwroot\css\components\progress.min.js" />
+    <None Include="wwwroot\css\components\rail.css" />
+    <None Include="wwwroot\css\components\rail.min.css" />
+    <None Include="wwwroot\css\components\rating.css" />
+    <None Include="wwwroot\css\components\rating.js" />
+    <None Include="wwwroot\css\components\rating.min.css" />
+    <None Include="wwwroot\css\components\rating.min.js" />
+    <None Include="wwwroot\css\components\reset.css" />
+    <None Include="wwwroot\css\components\reset.min.css" />
+    <None Include="wwwroot\css\components\reveal.css" />
+    <None Include="wwwroot\css\components\reveal.min.css" />
+    <None Include="wwwroot\css\components\search.css" />
+    <None Include="wwwroot\css\components\search.js" />
+    <None Include="wwwroot\css\components\search.min.css" />
+    <None Include="wwwroot\css\components\search.min.js" />
+    <None Include="wwwroot\css\components\segment.css" />
+    <None Include="wwwroot\css\components\segment.min.css" />
+    <None Include="wwwroot\css\components\shape.css" />
+    <None Include="wwwroot\css\components\shape.js" />
+    <None Include="wwwroot\css\components\shape.min.css" />
+    <None Include="wwwroot\css\components\shape.min.js" />
+    <None Include="wwwroot\css\components\sidebar.css" />
+    <None Include="wwwroot\css\components\sidebar.js" />
+    <None Include="wwwroot\css\components\sidebar.min.css" />
+    <None Include="wwwroot\css\components\sidebar.min.js" />
+    <None Include="wwwroot\css\components\site.css" />
+    <None Include="wwwroot\css\components\site.js" />
+    <None Include="wwwroot\css\components\site.min.css" />
+    <None Include="wwwroot\css\components\site.min.js" />
+    <None Include="wwwroot\css\components\state.js" />
+    <None Include="wwwroot\css\components\state.min.js" />
+    <None Include="wwwroot\css\components\statistic.css" />
+    <None Include="wwwroot\css\components\statistic.min.css" />
+    <None Include="wwwroot\css\components\step.css" />
+    <None Include="wwwroot\css\components\step.min.css" />
+    <None Include="wwwroot\css\components\sticky.css" />
+    <None Include="wwwroot\css\components\sticky.js" />
+    <None Include="wwwroot\css\components\sticky.min.css" />
+    <None Include="wwwroot\css\components\sticky.min.js" />
+    <None Include="wwwroot\css\components\tab.css" />
+    <None Include="wwwroot\css\components\tab.js" />
+    <None Include="wwwroot\css\components\tab.min.css" />
+    <None Include="wwwroot\css\components\tab.min.js" />
+    <None Include="wwwroot\css\components\table.css" />
+    <None Include="wwwroot\css\components\table.min.css" />
+    <None Include="wwwroot\css\components\transition.css" />
+    <None Include="wwwroot\css\components\transition.js" />
+    <None Include="wwwroot\css\components\transition.min.css" />
+    <None Include="wwwroot\css\components\transition.min.js" />
+    <None Include="wwwroot\css\components\video.css" />
+    <None Include="wwwroot\css\components\video.js" />
+    <None Include="wwwroot\css\components\video.min.css" />
+    <None Include="wwwroot\css\components\video.min.js" />
+    <None Include="wwwroot\css\components\visibility.js" />
+    <None Include="wwwroot\css\components\visibility.min.js" />
+    <None Include="wwwroot\css\components\visit.js" />
+    <None Include="wwwroot\css\components\visit.min.js" />
+    <None Include="wwwroot\css\semantic.min.css" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\brand-icons.eot" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\brand-icons.svg" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\brand-icons.ttf" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\brand-icons.woff" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\brand-icons.woff2" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.eot" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.otf" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.svg" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.ttf" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.woff" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\icons.woff2" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\outline-icons.eot" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\outline-icons.svg" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\outline-icons.ttf" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\outline-icons.woff" />
+    <None Include="wwwroot\css\themes\default\assets\fonts\outline-icons.woff2" />
+    <None Include="wwwroot\css\themes\default\assets\images\flags.png" />
+    <None Include="wwwroot\images\flour.png" />
+    <None Include="wwwroot\images\windmill.png" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\semantic.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Index .cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Home\lndex.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>

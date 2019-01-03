@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Exchange";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<h1>Send Flour</h1>
+<form class="ui form" action="https://localhost:5001/api/values/depositflour" method="get">
+    <div class="field">
+        <label>TO: (Name)</label>
+        <input type="text" name="username" placeholder="Miller">
+        <input type="hidden" name="password" value="default">
+    </div>
+    <div class="field">
+        <label>How much: </label>
+        <input type="text" name="flournr" placeholder="3">
+    </div>
+
+        <button class="ui button" type="submit">Submit</button>
+</form>
+
+<h1>See Flour</h1>
+
+
+<div class="ui input">
+    <input type="text" id="search" value="Name">
+</div>
+
+<button class="ui button" onclick="getDataFromApi()">
+    Get
+</button>
+
+<h3 id="total"></h3>
+
+
+
+<script>
+    function getDataFromApi() {
+        $.ajax({
+            url: 'http://localhost:8084/api/values/flourstore',
+            type: 'POST',
+            data: $("#search").val(),
+            success: function (data) {
+                $("#total").fadeOut(50);
+                $("#total").text(data + " Flour");
+                $("#total").fadeIn(50);
+            }
+        });
+    }
+
+
+</script>

@@ -1,0 +1,48 @@
+
+<h1> Ships </h1>
+<br />
+<img src="img/ship.png" width="10%"  />
+<br />
+<br />
+
+<html>
+<head></head>
+<body>
+<h2>Send ship</h2>
+<form action="FileUploadServlet" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="hidden-new-file" class="ui icon button">
+            <i class="cloud icon"></i>
+            Select File
+        </label>
+        <input type="file" id="hidden-new-file" name="fileName" style="display: none">
+    </div>
+    <br/>
+    <br/>
+    <input class="ui button" type="submit" value="Upload">
+</form>
+<!-- Also for shiplogs (.txt)  -->
+
+<h2>Retrieve ship</h2>
+<form>
+    <div class="ui input">
+        <input type="text" id="imagename" value="" />
+    </div>
+    <input class="ui button" type="button" id="btn" value="GO" />
+</form>
+
+
+</body>
+</html>
+
+<!--<input value="Upload">
+<img src="../uploads/CachedImage_1920_1080_POS4.jpg">
+-->
+
+
+<script>
+    $('#btn').on('click', function() {
+        var img = $('<img />', {src : 'uploads/' + $('#imagename').val()});
+        img.appendTo('body');
+    });
+</script>

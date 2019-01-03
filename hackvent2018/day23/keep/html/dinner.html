@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> Dinner reservation </h1>
+<br />
+<br />
+
+
+<div class="ui input">
+    <input type="text" id="name" value="Name">
+</div>
+
+<div class="ui input">
+    <input type="text" id="food" value="Food">
+</div>
+
+<button class="ui button" onclick="getDataFromApi()">
+    Get
+</button>
+
+<h3 id="echo"></h3>
+
+
+<script>
+
+    function getDataFromApi() {
+        $.ajax({
+            url: '../inc/ser.php',
+            type: 'POST',
+            data: {"name" : $("#name").val(), "food":$("#food").val()},
+            success: function (data) {
+
+                $.ajax({
+                    url: '../inc/dinner.php',
+                    type: 'POST',
+                    data: {"r" : data},
+                    success: function (data) {
+                        $("#echo").fadeOut(50);
+                        $("#echo").text(data);
+                        $("#echo").fadeIn(50);
+                    }
+                });
+
+
+
+            }
+        });
+    }
+
+</script>
+</body>
+
+
+
+
+</html>

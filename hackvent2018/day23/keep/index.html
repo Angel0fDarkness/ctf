@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Keep</title>
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</head>
+<body style="background-color: black;color:whitesmoke;">
+  <div class="ui visible left demo vertical inverted sidebar labeled icon menu">
+    <a class="item" onclick="$('#viewport').load('inc/inc.php?page=../html/home.html');">
+      <i class="home icon"></i>
+      Home
+    </a>
+    <a class="item" onclick="$('#viewport').load('inc/inc.php?page=../html/register.html');">
+      <i class="user plus icon"></i>
+      Register
+    </a>
+    <a class="item" onclick="$('#viewport').load('inc/inc.php?page=../html/login.html');">
+      <i class="unlock icon"></i>
+      Login
+    </a>
+    <a class="item" onclick="$('#viewport').load('inc/inc.php?page=../html/userinfo.html');">
+      <i class="user icon"></i>
+      Info
+    </a>
+    <a class="item" onclick="$('#viewport').load('inc/inc.php?page=../html/dinner.html');">
+      <i class="exchange icon"></i>
+      Reservation
+    </a>
+  </div>
+  <div id="viewport" style="margin-left:120px; margin-top:20px;"></div>
+  <script>
+    $('#viewport').load('inc/inc.php?page=../html/home.html');
+  </script>
+</body>
+</html>

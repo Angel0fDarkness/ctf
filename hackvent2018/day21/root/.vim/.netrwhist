@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/opt/tomcat/apache-tomcat-9.0.8/webapps/ROOT/js/Framework/jquery.min'
+let g:netrw_dirhist_2='/opt/tomcat/apache-tomcat-9.0.8/webapps/ROOT/css/themes/default/assets/images'
+let g:netrw_dirhist_3='/opt/tomcat/apache-tomcat-9.0.8/webapps/ROOT/WEB-INF/classes/com/servlet'
+let g:netrw_dirhist_4='/home/mill/.aspnet'
+let g:netrw_dirhist_5='/home/keep/invitation'
+let g:netrw_dirhist_6='/home/keep/htdocs/.idea'
+let g:netrw_dirhist_7='/etc/systemd/system'

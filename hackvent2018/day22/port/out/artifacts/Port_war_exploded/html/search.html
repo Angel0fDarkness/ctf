@@ -1,0 +1,59 @@
+
+<h1> Ships </h1>
+<br />
+<img src="img/ship.png" width="10%"  />
+<br />
+<br />
+
+<html>
+<head></head>
+<body>
+
+<h2>Get address of remote port</h2>
+<form>
+    <div class="ui input">
+        <input type="text" id="port" value="" />
+    </div>
+    <input class="ui button" type="button" id="btn" value="GO" />
+</form>
+
+<h3 id="address"></h3>
+
+
+</body>
+</html>
+
+<!--<input value="Upload">
+<img src="../uploads/CachedImage_1920_1080_POS4.jpg">
+-->
+
+
+
+<script>
+
+    $('#btn').on('click', function() {
+        $.ajax({
+            url: "searchPortname.jsp",
+            type: "get",
+            data: {
+                port: $("#port").val()
+            },
+            success: function(data) {
+                $("#address").fadeOut(50);
+                $("#address").text(data);
+                $("#address").fadeIn(50);
+            },
+            error: function(xhr) {
+                $("#address").fadeOut(50);
+                $("#address").text("Port not found");
+                $("#address").fadeIn(50);
+            }
+        });
+    });
+
+</script>
+
+
+
+
+

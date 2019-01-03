@@ -1,0 +1,16 @@
+<h3 id="info"></h3>
+
+
+<script>
+    $(function() {
+        $.ajax({
+            url: '../inc/userinfo.php',
+            type: 'POST',
+            success: function (data) {
+                $("#info").fadeOut(50);
+                $("#info").text(data);
+                $("#info").fadeIn(50);
+            }
+        });
+    });
+</script>

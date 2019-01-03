@@ -1,0 +1,34 @@
+
+<h1> BreadSend </h1>
+<img src="img/mail.png" />
+<br />
+Send bread to an IP Address!
+<br />
+<br />
+
+<div class="ui icon input">
+  <input id="ipInput" type="text" placeholder="IP">
+  <i class="envelope open outline icon"></i>
+</div>
+<div id="pingMessages">
+  <br />
+  <br />
+</div>
+
+<script>
+  $("#ipInput").keypress(function(key) {
+      if(key.which == 13) {
+          var ip = $("#ipInput").val();
+          $.get("inc/inc.php?page=breadSend.php&ip="+ip, function( data ) {
+            $("#pingMessages").append('<div class="ui message">  \
+                  <i class="close icon" onclick="$(this).closest(\'.message\').transition(\'fade\');"></i> \
+                  <div class="header"> \
+                    Result \
+                  </div> \
+                  <pre>' + data + '</pre> \
+                </div>');
+          });
+          $("#ipInput").val('');
+      }
+  });
+</script>

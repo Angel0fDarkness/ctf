@@ -1,0 +1,15 @@
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi.deps.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi.runtimeconfig.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi.runtimeconfig.dev.json
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi.dll
+C:\Users\Jannis\source\repos\Mill\Webapi\bin\Release\netcoreapp2.1\linux-x64\Webapi.pdb
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.csprojAssemblyReference.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.csproj.CoreCompileInputs.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.RazorAssemblyInfo.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.RazorAssemblyInfo.cs
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.AssemblyInfoInputs.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.AssemblyInfo.cs
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.RazorTargetAssemblyInfo.cache
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.dll
+C:\Users\Jannis\source\repos\Mill\Webapi\obj\Release\netcoreapp2.1\linux-x64\Webapi.pdb

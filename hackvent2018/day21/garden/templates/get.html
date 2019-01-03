@@ -1,0 +1,42 @@
+
+<h1> View Garden </h1>
+<br />
+Let's have a great view!
+<br />
+<br />
+View by MD5 hash:
+<br />
+<br />
+<div class="ui icon input">
+  <input id="hashInput" type="text" placeholder="MD5">
+  <i class="shopping image icon"></i>
+</div>
+<br />
+<br />
+<div id="results">
+  <br />
+  <br />
+</div>
+
+<script>
+
+  $("#hashInput").keypress(function(key) {
+      if(key.which == 13) {
+          var hash = $("#hashInput").val();
+          hash = encodeURIComponent(hash);
+          console.log(hash);
+
+          $.get("get?hash="+hash, function( data ) {
+            $("#results").append('<div class="ui message">  \
+                  <i class="close icon" onclick="$(this).closest(\'.message\').transition(\'fade\');"></i> \
+                  <div class="header"> \
+                    Result \
+                  </div> \
+                  <pre>' + data + '</pre> \
+                </div>');
+          });
+
+          $("#hashInput").val('');
+      }
+  });
+</script>

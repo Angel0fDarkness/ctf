@@ -1,0 +1,2 @@
+import osimport sysimport ctypesimport base64from flask import Flask, request, render_templatefrom easyprocess import EasyProcessfrom werkzeug.serving import run_simple#begin_multiline
+def _yes(): return 'yes'

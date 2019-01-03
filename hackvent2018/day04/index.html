@@ -1,0 +1,179 @@
+<html>
+<head>
+<style>
+	
+div.divTableCell {
+    margin: 5px;
+    border: 1px solid #0000AA;
+    width: 180px;    
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div.divTableCell:hover {
+    border: 1px solid #777;
+    
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	padding: 5px;
+    text-align: center;
+    color: white;
+	display: table-cell;
+	font: 15px arial, sans-serif;
+	font-weight: bold;
+	margin: 14px 15px;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+</style>
+<script>
+	function JollyRoger() {
+		
+		var elements = document.getElementsByTagName("input")
+		for (var i = 0; i < elements.length; i++) {
+		    if(elements[i].value == "") {
+		        alert('ahoy pirate! \n\nyou want jolly roger? i see empty boxes :-/');
+		        return;
+		    }
+		}
+		
+		var a, b;
+		p=document.getElementById('pirate01').value+document.getElementById('pirate02').value+document.getElementById('pirate03').value+
+		document.getElementById('pirate04').value+document.getElementById('pirate05').value+document.getElementById('pirate06').value+
+		document.getElementById('pirate07').value+document.getElementById('pirate08').value+document.getElementById('pirate09').value+
+		document.getElementById('pirate10').value+document.getElementById('pirate11').value+document.getElementById('pirate12').value;
+		s='::)"<.vd]!&a{":r>Qyh 7';
+		f='HV18-';
+		for (i=0; i < s.length;i++) {
+	    	a = s.charCodeAt(i);       
+			b = p.substring(i*2, i*2+2);
+			f+=(String.fromCharCode(a ^ b));
+	    }
+	    alert(f);
+	}
+	
+</script>
+</head>
+<body bgcolor=#0000AA>
+	
+<div class="divTable" style="width: 100%;border: 0px" >
+	<div class="divTableBody">
+		<div class="divTableRow">
+			<div class="none">
+				&nbsp;
+	    	</div>	
+			<div class="none">
+				&nbsp;
+	    	</div>		
+			<div class="none">	
+				&nbsp;			
+	    	</div>	
+			<div class="none">
+				&nbsp;
+	    	</div>		    		    	
+		</div>				
+		<div class="divTableRow">
+			<div class="divTableCell" align="center">
+				<img src="pirate01.jpg" width="151" height="151">
+				<div class="year">Nebraska</div>
+	    		<div class="number"><br><input type="text" id="pirate01" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate02.jpg" width="151" height="151">
+				<div class="year">Tortuga</div>
+	    		<div class="number"><br><input type="text" id="pirate02" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate03.jpg" width="151" height="151">
+				<div class="year">Antigua</div>
+	    		<div class="number"><br><input type="text" id="pirate03" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate04.jpg" width="151" height="151">
+				<div class="year">Jamaica</div>
+	    		<div class="number"><br><input type="text" id="pirate04" size="2"></div>
+	    	</div>	    		    	
+		</div>
+		<div class="divTableRow">
+			<div class="divTableCell">
+				<img src="pirate05.jpg" width="151" height="151">
+				<div class="year">St. Kitts</div>
+	    		<div class="number"><br><input type="text" id="pirate05" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate06.jpg" width="151" height="151">
+				<div class="year">Barbados</div>
+	    		<div class="number"><br><input type="text" id="pirate06" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate07.jpg" width="151" height="151">
+				<div class="year">Montserrat</div>
+	    		<div class="number"><br><input type="text" id="pirate07" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate08.jpg" width="151" height="151">
+				<div class="year">Barbados</div>
+	    		<div class="number"><br><input type="text" id="pirate08" size="2"></div>
+	    	</div>	
+		</div>
+		<div class="divTableRow">
+			<div class="divTableCell">
+				<img src="pirate09.jpg" width="151" height="151">
+				<div class="year">Antigua</div>
+	    		<div class="number"><br><input type="text" id="pirate09" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate10.jpg" width="151" height="151">
+				<div class="year">Jamaica</div>
+	    		<div class="number"><br><input type="text" id="pirate10" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate11.jpg" width="151" height="151">
+				<div class="year">Tortuga</div>
+	    		<div class="number"><br><input type="text" id="pirate11" size="2"></div>
+	    	</div>
+			<div class="divTableCell">
+				<img src="pirate12.jpg" width="151" height="151">
+				<div class="year">Nebraska</div>
+	    		<div class="number"><br><input type="text" id="pirate12" size="2"></div>
+	    	</div>	
+		</div>
+		<div class="divTableRow">
+			<div class="none">
+	    	</div>	
+			<div class="divTableCell">
+				<br><input type="button" class="button" value="give me the flag" onclick="Javascript:JollyRoger();">
+	    	</div>		
+			<div class="divTableCell">
+				<br><input type="button" class="button" value="i want to give up" onclick="Javascript:window.location.assign('https://www.the-pirate-ship.com/#Explore')">
+	    	</div>	
+			<div class="none">
+	    	</div>		    		    	
+		</div>		
+	</div>
+</div>
+</body>
+</html>

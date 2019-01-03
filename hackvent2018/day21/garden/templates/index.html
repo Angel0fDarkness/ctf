@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Garden</title>
+  <link rel="stylesheet" type="text/css" href="static/css/semantic.min.css">
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/semantic.min.js"></script>
+</head>
+<body>
+  <div class="ui visible left demo vertical sidebar labeled icon menu">
+    <a class="item" onclick="$('#viewport').load('home');">
+      <i class="green home icon"></i>
+      Home
+    </a>
+    <a class="item" onclick="$('#viewport').load('get');">
+      <i class="green tree icon"></i>
+      Get Vegetable
+    </a>
+  </div>
+  <div id="viewport" style="margin-left:160px; margin-top:20px;"></div>
+  <script>
+    $('#viewport').load('home');
+  </script>
+</body>
+</html>

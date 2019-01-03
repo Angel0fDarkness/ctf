@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<button class="ui button" onclick="getDataFromApi('de.txt')">
+    German
+</button>
+
+<button class="ui button" onclick="getDataFromApi('en.txt')">
+    English
+</button>
+
+<h3 id="policy"></h3>
+
+
+<script>
+    function getDataFromApi(lang) {
+        $.ajax({
+            url: 'http://localhost:8084/api/values/lang',
+            type: 'POST',
+            data: lang,
+            success: function (data) {
+                $("#policy").fadeOut(50);
+                $("#policy").text(data);
+                $("#policy").fadeIn(50);
+            }
+        });
+    }
+
+
+</script>

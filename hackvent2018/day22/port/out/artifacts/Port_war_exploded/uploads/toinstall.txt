@@ -1,0 +1,27 @@
+TODO:
+
+-Office
+
+-Firefox + Proxy shifer
+
+-Chrome + ublock origin
+
+-Hopper?/Ida?
+-Cutter
+
+-Linux
+-Windows Malware VM
+
+
+dnspy
+x64dbg
+tools
+kernel dbg tools
+
+-greenshot
+
+-xampp
+-git
+
+projects: N9MG4-WYC82-BJQG6-T7JXV-WMBB9
+Visio: KJNJQ-4MGPC-3JG69-8F7DT-2BBFK

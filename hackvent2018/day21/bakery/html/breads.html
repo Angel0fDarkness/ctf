@@ -1,0 +1,52 @@
+
+<h1> Breads </h1>
+<br />
+<img src="img/bread.jpg" width="10%"  />
+<br />
+Create Bread:
+<br />
+<br />
+<div class="ui icon input">
+  <input id="breadInput" type="text" placeholder="Bread">
+  <i class="shopping basket icon"></i>
+</div>
+<br />
+<br />
+Calculate Bread Prize (with our tax):
+<br />
+<br />
+<div class="ui icon input">
+  <input id="prizeInput" type="text" placeholder="Prize">
+  <i class="shopping basket icon"></i>
+</div>
+<div id="prizeMessages">
+  <br />
+  <br />
+</div>
+
+<script>
+  $("#breadInput").keypress(function(key) {
+      if(key.which == 13) {
+          var bread = $("#breadInput").val();
+          $.get("inc/inc.php?page=breads.php&bread="+bread, function( data ) {});
+          $("#breadInput").val('');
+      }
+  });
+  $("#prizeInput").keypress(function(key) {
+      if(key.which == 13) {
+          var prize = $("#prizeInput").val();
+          prize = encodeURIComponent(prize);
+          console.log(prize);
+          $.get("inc/inc.php?page=breads.php&prize="+prize, function( data ) {
+            $("#prizeMessages").append('<div class="ui message">  \
+                  <i class="close icon" onclick="$(this).closest(\'.message\').transition(\'fade\');"></i> \
+                  <div class="header"> \
+                    Result \
+                  </div> \
+                  <pre>' + data + '</pre> \
+                </div>');
+          });
+          $("#prizeInput").val('');
+      }
+  });
+</script>

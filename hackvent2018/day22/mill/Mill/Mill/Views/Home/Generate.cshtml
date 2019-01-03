@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Generate";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<h1> Mill </h1>
+<br />
+<h2> Create some flour </h2>
+
+<input type="image" src="~/images/flour.png" name="anzahl" id="flouranzahl_btn1" onclick="XMLFunction()" />
+<input type="image" src="~/images/flour.png" name="anzahl" id="flouranzahl_btn2" onclick="XMLFunction()" />
+<input type="image" src="~/images/flour.png" name="anzahl" id="flouranzahl_btn3" onclick="XMLFunction()" />
+
+<h3 id="added"></h3>
+<h3 id="total"></h3>
+
+
+
+<script>
+    function XMLFunction() {
+        var xml = '' +
+            '<?xml version="1.0" encoding="UTF-8"?>' +
+            '<flour>1</flour>';
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                $("#added").fadeOut(50);
+                $("#added").text(xhr.responseText);
+                $("#added").fadeIn(50);
+            }
+        };
+        xhr.open("POST", "http://localhost:8084/api/values/send", true);
+        xhr.send(xml);
+    }
+</script>
+
+
