@@ -1,4 +1,6 @@
-01 - Prison Break
+# Hacky Easter 2018
+
+## 01 - Prison Break
 - Search the text on the origami to find the "Prison Break Code"
 - The dots are numbers, so we have 1334322 and 3342321
 - Write the telephone numbers over the converted dots
@@ -10,7 +12,7 @@
 prisone  risking
 
 
-02 - Babylon
+## 02 - Babylon
 - The babylon.txt does not look like any known encoding
 - The text says that there is not only the tower in Babylon with walls and shelves..
 - What elso was there, publically known, in Babylon? The library (which has many shelves)
@@ -19,7 +21,7 @@ prisone  risking
 - Then use the number combination - Wall: 4, Shelf: 4, Volume: 28, Page 355
 
 
-03 - Pony Coder
+## 03 - Pony Coder
 - The first idea was that this is punycode (from the name)
 - Try different changes to the displayed string, e.g. replacing gn or tn with xn and use -- but it didnt work
 - There is a little more work required, the correct punycode is (after several tries): xn--gn-tn-gha87be4e
@@ -29,7 +31,7 @@ prisone  risking
 - Correct password is gin tonic
 
 
-04 - Memeory
+## 04 - Memeory
 - When you check the page source, the single pieces were ordered
 - You can see the images when you use the Inspector in FF WebDeveloper
 - The a href link tell you what matches (#card_0 and #card_1 have the same image and so on)
@@ -43,7 +45,7 @@ prisone  risking
   - Done :)
 
 
-05 - Sloppy & Paste
+## 05 - Sloppy & Paste
 - In App Challenge (iPhone)
 - You see a text field containing some data (looks base 64 encoded)
 - You cannot select or copy the data from the field
@@ -61,7 +63,7 @@ prisone  risking
 - You get a PNG with the QR code
 
 
-06 - Cooking for Hackers
+## 06 - Cooking for Hackers
 - The recipe shows strange ingredients..
 - They look base64 encoded, so lets decode them
 - "salt", "oil", "t7w2g", "ntdo.", "onion"
@@ -72,10 +74,10 @@ prisone  risking
 - Its a TOR address!
 
 
-07 - Jigsaw
+## 07 - Jigsaw
 
 
-08 - Disco Egg
+## 08 - Disco Egg
 - The egg QR code is flashing with many differen colors..
 - When you check the page source, the QR code area is a table
 - Each td element has different color possibilities inside the "class" attribute
@@ -85,10 +87,10 @@ prisone  risking
 - Open the HTML file locally in the browser to see the QR code
 
 
-09 - Dial Trial
+## 09 - Dial Trial
 - In-App Challenge (iPhone)
 - When pushing the Dial button, you hear some dial sounds (you need to unmute the phone!)
-- The audio file can be obtained from the APK in res/raw/dial.mp3 (or search for some audio formats *.mp3 / *.wav in the whole APK)
+- The audio file can be obtained from the APK in res/raw/dial.mp3 (or search for some audio formats \*.mp3 / \*.wav in the whole APK)
 - I used http://dialabc.com/sound/detect/ to analyze the audio file (you need to convert the mp3 to wav first)
   4*7#2*6#1*2#2*5#2*3#3*6#2*6#2*6#3*6#2*5#3*4#1*2
 - This is not the correct password, also only the numbers dont work
@@ -99,7 +101,7 @@ prisone  risking
   snakeonnokia
 
 
-10 - Level Two
+## 10 - Level Two
 - Download the game and install the runtime if you dont have it
 - Start the game and try to explore the world
   -> Doesnt work, you cannot get from the "prison" island..
@@ -143,7 +145,7 @@ prisone  risking
 
 
 
-11 - De Egg you must
+## 11 - De Egg you must
 - Download the zip and try to extract it (needs password)
 - Ok, where do we get the password?
 - I tried to analyze the zip itself and also the image from the challenge but didnt find anything
@@ -166,7 +168,7 @@ prisone  risking
 
 
 
-12 - Patience
+## 12 - Patience
 - In-App Challenge
 - The app counts down from 100000 very slowly and you cannot speed it up (change time, ...)
 - Lets look what it does in the APK: assets/www/challenge12.html
@@ -179,17 +181,13 @@ prisone  risking
 - TODO: Add final hash
 
 
-
-13 - 
-
-
-14 - Same same...
+## 14 - Same same...
 - You need to upload two files that can be parsed to a QR code with different text inside but the same SHA-1 hash.
 - When you check the provided upload page, the QR codes need to contain the text "Hackvent" and "Hacky Easter"
 - The SHA-1 hash must match
 - They use the QrReader to read the QR codes and parse the text
 - Lets take a look at the QrReader: https://github.com/khanamiryan/php-qrcode-detector-decoder
-- If you check the source of lib/QrReader.php, function __construct
+- If you check the source of lib/QrReader.php, function `__construct`
 - They use Imagick if available to parse the files
 - Imagick can parse JPEG out of a PDF!
 - So we can use two QR code JPEGs, put them in a PDF and use the SHAttered attack to produce two PDF with same SHA-1 hashes.
@@ -200,7 +198,7 @@ prisone  risking
 - Afterward it worked :)
 
 
-15 - Manila greetings
+## 15 - Manila greetings
 - You get a string with 5 words with 5 letters each and a last one
 - Additionally there is a deck of cards?
 - I searched for "encryption card deck" and directly found Bruce Schneiers Solitaire Cipher
@@ -211,13 +209,13 @@ prisone  risking
   2. Swap the numbers and letters ([dsch])([0-9]) with $2$1
   3. Replace card names with uppercase letters ([kqja]) with \U\L$1
   4. Replace jokers j([ab]) with \U\L$1
-  5. Put everything in a single string by replacing the line endings ([\r\n]*) with space
+  5. Put everything in a single string by replacing the line endings ([\r\n]\*) with space
 - Now you can use this as the "Key" but be sure to select "Cards" from the checkboxes
 - Decrypt to get: THEPA SSWOR DISCR YPTON OMICO N
 - Password is CRYPTONOMICON :)
 
 
-16 - Git
+## 16 - Git
 - Download and unzip archive
 - Check git log and try different commit IDs
 - Check git branch and try also the other branch
@@ -228,7 +226,7 @@ prisone  risking
 - You have the QR code egg :)
 
 
-17 - Space Invaders
+## 17 - Space Invaders
 - The hint already points you to the site used for "encryption" (codemoji.org)
 - You can encrypt/decrypt messages there with an emoji key
 - Its a litte complicated to get your message on the site
@@ -249,7 +247,7 @@ prisone  risking
 - Now select the Space Invaders emoji and get the password: invad3rsmustd13
 
 
-25 - Hidden Egg #1
+## 25 - Hidden Egg #1
 - The hint "Heads up" brought two ideas to my mind
   1. Its in the HTML <head> tag - No it wasnt :(
   2. Its in the HTTP Header
@@ -260,7 +258,7 @@ prisone  risking
 - There you will find the egg QR code
 
 
-26 - Hidden Egg #2
+## 26 - Hidden Egg #2
 - The hint "This egg is hidden in a very subtile manner. Perhaps you need to browse on the edge."
 - Lets look at the page in Microsoft edge
 - Doesnt change anything.. favicon is the same, source code, ...
